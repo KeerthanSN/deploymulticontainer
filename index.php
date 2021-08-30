@@ -3,7 +3,6 @@
 <head>
 </head>
 <body>
-<img src="https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"  width="100%" height="100%">
 <?php
     $link = mysqli_connect($_ENV["DATABASE_SERVICE_NAME"],$_ENV["DATABASE_USER"],$_ENV["DATABASE_PASSWORD"],$_ENV["DATABASE_NAME"]);
     if (!$link) {
@@ -36,7 +35,8 @@
     $row = mysqli_fetch_array($result);
     mysqli_free_result($result);
 
-    print $row[0] . "\n";
+    print ?><img src="https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"  width="100%" height="100%"> 
+	<center><b><h1 style="font-size:300%; color:red;"><?php $row[0] . "\n"; ?></h1></b></center><?php
     
     mysqli_close($link);
 ?>
