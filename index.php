@@ -1,6 +1,105 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!DOCTYPE html>  
+<html>  
+  
+<head> 
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    }
+nav{
+    width: 100%;
+    height: 50px;
+    
+    background: white;
+    overflow: auto;
+    position: fixed; /* Set the navbar to fixed position */
+  top: -100; /* Position the navbar at the top of the page */
+  width: 100%;
+    
+    }
+ul {
+    padding: 0;
+    
+    margin: 0 0 0 150px;
+    list-style: none;
+    }
+li {
+    float:left;
+    
+    
+        
+    }
+.logo img{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+
+        
+    }
+    nav a{
+        width: 100px;
+        display: block;
+        
+        margin-top: 10px;
+        margin-left: 0px;
+        text-decoration: none;
+        font-family: arial;
+        color: black;
+        text-align: center;
+    }
+nav li {
+        width: 70px;
+        display: block;
+        padding: 20p;
+        margin-top: 10px;
+        margin-left: 40px;
+        text-decoration: none;
+        font-family: arial;
+        color: black;
+        text-align: center;
+    }
+.bg {
+  
+  background-image: url("home-bg.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    * {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+margin-left:7%;
+  
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: brown;
+  color: white;
+}
+    footer a{
+        width: 100%;
+        margin-left: 50px;
+        font-family: arial;
+        color: aliceblue;
+        text-align: center;
+    }
+    
+
+    </style>
 </head>
 <body>
 <?php
@@ -43,6 +142,6 @@
     
     mysqli_close($link);
 ?>
-<img src="https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"  width="100%" height="100%">
+
 </body>
 </html>
