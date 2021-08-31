@@ -142,6 +142,64 @@ footer {
     
     mysqli_close($link);
 ?>
+<img src="https://github.com/KeerthanSN/deploymulticontainer/blob/master/images/home-bg.jpg?raw=true" width="100%">
+
+<h1><center>Our Features</center></h1>
+<h4><center>Our 3 Primary Features -</center></h4>
+    <center>
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/KeerthanSN/deploymulticontainer/blob/master/images/digital-inventory.png?raw=true" alt="Snow" style="width:50%">
+      <h3>Digital Book Inventory</h3>
+
+  </div>
+  <div class="column">
+    <img src="https://github.com/KeerthanSN/deploymulticontainer/blob/master/images/search-online.png?raw=true" alt="Forest" style="width:50%">
+      <h3>Search Box</h3>
+    
+  </div>
+  <div class="column">
+    <img src="https://github.com/KeerthanSN/deploymulticontainer/blob/master/images/defaulters-list.png?raw=true" alt="Mountains" style="width:50%">
+      <h3>Defaulter List</h3>
+    
+  </div>
+    
+</div>
+</center>
+<img src="https://github.com/KeerthanSN/deploymulticontainer/blob/master/images/in-homepage-banner.jpg?raw=true" width="100%">
+<center><h1>Our Process</h1>
+<h4>We have simple 3 step Process</h4></center>
+<center>
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/KeerthanSN/deploymulticontainer/blob/master/images/sign-up.png?raw=true" alt="Snow" style="width:50%">
+      <h3>Signup</h3>
+
+  </div>
+  <div class="column">
+    <img src="https://github.com/KeerthanSN/deploymulticontainer/blob/master/images/search-online.png?raw=true" alt="Forest" style="width:50%">
+      <h3>Search Books</h3>
+ 
+  </div>
+  <div class="column">
+    <img src="https://github.com/KeerthanSN/deploymulticontainer/blob/master/images/library.png?raw=true" alt="Mountains" style="width:50%">
+      <h3>Visit Us</h3>
+    
+  </div>
+    
+</div>
+</center>
+<footer>
+    <center><ul>
+                <li><a href="#">Admin Login</a></li>
+                <li><a href="#">Author Management</a></li>
+                <li><a href="#">Publisher Management</a></li>
+                <li><a href="#">Book Inventory</a></li>
+                <li><a href="#">Book issuing</a></li>
+                <li><a href="#">Member Management</a></li>
+                
+            </ul></center>
+    </footer>
 
 </body>
 </html>
